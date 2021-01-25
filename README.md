@@ -447,6 +447,9 @@ for img_path in img_paths:
 
 Having the values PSNR, MAE for each of the displayed images, we can draw up the following table:
 
+PSNR = Peak Signal to Noise Ratio [dB] - The higher the better<br/>
+MAE = Mean Absolute Error - The lower the better<br/>
+
 | Image / Filter |           | Median | SWM    | ASWM   |
 |----------------|-----------|--------|--------|--------|
 | lena_color_512 | PSNR (dB) | 29.902 | 32.153 | 30.783 |
@@ -463,6 +466,8 @@ Having the values PSNR, MAE for each of the displayed images, we can draw up the
 |                | MAE       | 1.529  | 0.631  | 0.744  |
 
 <center>Results on 512x512 images with a probabilty of 30% random-valued impulsive noise</center>
+
+<br/><br/>
 
 We can run the tests again and draw up tables for lower resolution images as well:
 
@@ -489,6 +494,8 @@ We can run the tests again and draw up tables for lower resolution images as wel
 
 <center>Results on 256x256 images with a probabilty of 30% random-valued impulsive noise</center>
 
+<br/><br/>
+
 | Image / Filter |           | Median | SWM    | ASWM    |
 |----------------|-----------|--------|--------|---------|
 | lena_color_128 | PSNR (dB) | 26.113 | 27.49  | 26.473  |
@@ -511,6 +518,8 @@ We can run the tests again and draw up tables for lower resolution images as wel
 |                | Time (s)  | 0.33s  | 0.33s  | 16.67s  |
 
 <center>Results on 128x128 images with a probabilty of 30% random-valued impulsive noise</center>
+
+<br/><br/>
 
 ## Conclusions
 
